@@ -12,6 +12,8 @@ docker build -t frontend:<tag> ./frontend
 docker build -t backend:<tag> ./backend
 ```
 
+명령어 실행 이후, deploy/frontend-deployment.yaml과 deploy/backend-deployment.yaml에서 image 항목의 태그를 상기한 태그와 같게 설정해주세요.
+
 ## Deploy
 
 ```shell
