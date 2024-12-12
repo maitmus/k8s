@@ -4,6 +4,14 @@
 
 Requirements: yarn, kubectl, minikube
 
+## Create frontend/backend Image
+
+```shell
+eval $(minikube docker-env)
+docker build -t frontend:<tag> ./frontend
+docker build -t backend:<tag> ./backend
+```
+
 ## Deploy
 
 ```shell
